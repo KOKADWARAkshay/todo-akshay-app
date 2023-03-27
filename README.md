@@ -7,7 +7,7 @@ Run these commands:
 
 
 `sudo apt install npm`
-l
+
 
 `npm install`
 
