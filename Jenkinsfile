@@ -9,14 +9,14 @@ pipeline {
         }
         stage('Build and Test'){
             steps{
-                sh 'docker build . -t KOKADWARAkshay/node-todo-test:latest'
+                sh 'docker build . -t kokadwarakshay/node-todo-test:latest'
             }
         }
         stage('Push'){
             steps{
                 withCredentials([usernamePassword(credentialsId: 'dockerHub', passwordVariable: 'dockerHubPassword', usernameVariable: 'dockerHubUser')]) {
         	     sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPassword}"
-                 sh 'docker push KOKADWARAkshay/node-todo-test:latest'
+                 sh 'docker push kokadwarakshay/node-todo-test:latest'
                 }
             }
         }
