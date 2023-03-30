@@ -69,7 +69,7 @@ pipeline {
     }
 }
 This Jenkinsfile defines a Jenkins pipeline with three stages: Build, Test, and Deploy. In the Build stage, the Docker image is built. In the Test stage, the Docker image is run and the app is tested. In the Deploy stage, the Docker image is tagged and pushed to an AWS Elastic Container Registry (ECR) repository.
-## Step 4
+##  Step 5
 
 Configure Jenkins
 In Jenkins, create a new pipeline job and configure it to use your Git repository. In the pipeline configuration, specify the Jenkinsfile you created in Step 4.
