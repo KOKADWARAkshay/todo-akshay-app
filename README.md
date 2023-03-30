@@ -1,3 +1,6 @@
+Setting up a Node.js app on AWS EC2 using Jenkins and Docker
+This tutorial will guide you through the process of setting up a Node.js app on an AWS EC2 virtual instance using Jenkins for continuous integration/continuous deployment (CI/CD) and Docker for containerization.
+
 Prerequisites
 Before you begin, make sure you have the following:
 
@@ -72,3 +75,4 @@ Step 6: Run the pipeline
 Run the pipeline in Jenkins. If the pipeline completes successfully, the Docker image should be pushed to your AWS ECR repository.
 
 Conclusion
+Congratulations, you have successfully set up a Node
