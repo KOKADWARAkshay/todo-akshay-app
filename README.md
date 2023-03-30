@@ -79,7 +79,17 @@ Run the pipeline
 Run the pipeline in Jenkins. If the pipeline completes successfully, the Docker image should be pushed to your AWS ECR repository.
 
 ## 🔗 
+![AWS EC2](https://user-images.githubusercontent.com/70112790/228879598-7545ce47-07ec-439d-86c9-6ea2d7740bd8.png)
 
+
+![Console Output](https://user-images.githubusercontent.com/70112790/228879735-3737679a-a014-4602-a01b-dc44a38dd252.png)
+
+
+
+![Build Trend ](https://user-images.githubusercontent.com/70112790/228880170-3f20459f-0eaa-4f38-bfb8-38d440872414.png)
+
+
+![TodoApp](https://user-images.githubusercontent.com/70112790/228881758-355b08b9-c1d5-464e-917f-22215fbf8712.png)
 
 
 
